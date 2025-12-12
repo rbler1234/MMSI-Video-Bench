@@ -1,7 +1,7 @@
 <div align="center">
 
 # MMSI-Video-Bench: A Holistic Benchmark for Video-Based Spatial Intelligence
-[**🌐 Homepage**](https://rbler1234.github.io/MMSI-VIdeo-Bench.github.io/)  | [**📑 Paper**]() | [**🤗 dataset**](https://huggingface.co/datasets/rbler/MMSI-Video-Bench) | [**📖 arXiv**]()
+[**🌐 Homepage**](https://rbler1234.github.io/MMSI-VIdeo-Bench.github.io/)  | [**📑 Paper**](https://arxiv.org/pdf/2512.10863) | [**🤗 dataset**](https://huggingface.co/datasets/rbler/MMSI-Video-Bench) | [**📖 arXiv**](https://arxiv.org/abs/2512.10863)
 </div>
 
 
@@ -266,7 +266,15 @@ Evaluation under the **Uniform** setting may lead to missing critical informatio
 ## 🔗 Citation
 
 ```bibtex
-
+@misc{lin2025mmsivideobenchholisticbenchmarkvideobased,
+      title={MMSI-Video-Bench: A Holistic Benchmark for Video-Based Spatial Intelligence}, 
+      author={Jingli Lin and Runsen Xu and Shaohao Zhu and Sihan Yang and Peizhou Cao and Yunlong Ran and Miao Hu and Chenming Zhu and Yiman Xie and Yilin Long and Wenbo Hu and Dahua Lin and Tai Wang and Jiangmiao Pang},
+      year={2025},
+      eprint={2512.10863},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.10863}, 
+}
 ```
 
 ## 📄 License
