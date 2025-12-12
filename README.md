@@ -12,18 +12,9 @@
 
 🔥[2025-12]: We released our paper, benchmark, and evaluation codes.
 
-## Introduction
-
-<!-- ![Teaser](assets/teaser.jpg) -->
-
-Spatial understanding over continuous visual input is crucial for MLLMs to evolve into general-purpose assistants in physical environments. Yet there is still no comprehensive benchmark that holistically assesses the progress toward this goal. In this work, we introduce **MMSI-Video-Bench**, a fully human-annotated benchmark for video-based spatial intelligence in MLLMs. It operationalizes a four-level framework, Perception, Planning, Prediction, and Cross-Video Reasoning, through 1,106 questions grounded in 1,278 clips from 25 datasets and in-house videos. Each item is carefully designed and reviewed by 3DV experts with explanatory rationales to ensure precise, unambiguous grounding. Leveraging its diverse data sources and holistic task coverage, MMSI-Video-Bench also supports three domain-oriented sub-benchmarks (Indoor Scene Perception Bench, Robot Bench and Grounding Bench) for targeted capability assessment. We evaluate 25 strong open-source and proprietary MLLMs, revealing a striking human--AI gap: many models perform near chance, and the best reasoning model lags humans by nearly 60%. We further find that spatially fine-tuned models still fail to generalize effectively on our benchmark. Fine-grained error analysis exposes systematic failures in geometric reasoning, motion grounding, long-horizon prediction, and cross-video correspondence. We also show that typical frame-sampling strategies transfer poorly to our reasoning-intensive benchmark, and that neither 3D spatial cues nor chain-of-thought prompting yields meaningful gains. We expect our benchmark to establish a solid testbed for advancing video-based spatial intelligence.
-
-<div style="text-align: center;">
-    <img src="assets/teasor.png" alt="Dialogue_Teaser" width=100% >
-</div>
-
-
 ## Features of MMSI-Video-Bench
+
+MMSI-Video-Bench is a fully human-annotated benchmark for evaluating video-based spatial intelligence in MLLMs. It implements a four-level framework—Perception, Planning, Prediction, and Cross-Video Reasoning, through 1,106 questions grounded in 1,278 video clips sourced from 25 public datasets as well as in-house recordings.
 
 - **High quality.** All data are manually annotated by 11 domain experts in 3D vision, following a rigorous review and acceptance process to ensure annotation accuracy and reliability.
 
@@ -32,6 +23,13 @@ Spatial understanding over continuous visual input is crucial for MLLMs to evolv
 - **Diverse Video Sources.** MMSI-Video-Bench includes videos from 25 public datasets and 1 in-house collection, spanning tabletop recordings, indoor and multi-floor environments, outdoor scenes, sports, and movie footage.
 
 - **Comprehensive and Hostile Task Coverage.** The benchmark covers spatial layout reasoning, motion understanding, decision-making, and cross-video reasoning, providing a more holistic evaluation of video-based spatial intelligence.
+
+
+<div style="text-align: center;">
+    <img src="assets/teasor.png" alt="Dialogue_Teaser" width=100% >
+</div>
+
+
 
 
 
