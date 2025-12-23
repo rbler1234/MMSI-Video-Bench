@@ -59,7 +59,7 @@
 
 MMSI-Video-Bench is a fully human-annotated benchmark for evaluating video-based spatial intelligence in MLLMs. It implements a four-level framework—Perception, Planning, Prediction, and Cross-Video Reasoning, through 1,106 questions grounded in 1,278 video clips sourced from 25 public datasets as well as in-house recordings.
 
-- **High quality.** All data are manually annotated by 11 domain experts in 3D vision, following a rigorous review and acceptance process to ensure annotation accuracy and reliability.
+- **High Quality.** All data are manually annotated by 11 domain experts in 3D vision, following a rigorous review and acceptance process to ensure annotation accuracy and reliability.
 
 - **Challenging.** We evaluate 25 strong open-source and proprietary MLLMs, revealing a striking human–AI gap, even the best reasoning model trails human performance by nearly 60%.
 
@@ -236,7 +236,7 @@ python run.py --model Qwen2.5-VL-32B-Instruct --data MMSIVideo_SC/MMSIVideo_U50
 
 </details>
 
-<details> <summary>🤖 Robot Sub-bench</summary>
+<details> <summary>🤖 Robot Sub-Bench</summary>
 
 | Model                      | Avg.(%) | Type        |
 |----------------------------|---------|-------------|
@@ -269,7 +269,7 @@ python run.py --model Qwen2.5-VL-32B-Instruct --data MMSIVideo_SC/MMSIVideo_U50
 
 </details>
 
-<details> <summary>🏠 Indoor Scene Perception Sub-bench</summary>
+<details> <summary>🏠 Indoor Scene Perception Sub-Bench</summary>
 
 | Model                      | Avg.(%) | Type        |
 |----------------------------|---------|-------------|
@@ -302,7 +302,7 @@ python run.py --model Qwen2.5-VL-32B-Instruct --data MMSIVideo_SC/MMSIVideo_U50
 
 </details>
 
-<details> <summary>📍 Grounding Sub-bench</summary>
+<details> <summary>📍 Grounding Sub-Bench</summary>
 
 | Model                      | Avg.(%) | Type        |
 |----------------------------|---------|-------------|

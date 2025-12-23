@@ -111,8 +111,9 @@ def load_model(args):
     elif args.model_name == 'QwenVL2_5-32B':
         from models.qwenvl import QwenVL2_5
         model = QwenVL2_5('/path/to/model')
-        from models.qwenvl import QwenVL2_5
+        
     elif args.model_name == 'QwenVL2_5-72B':
+        from models.qwenvl import QwenVL2_5
         model = QwenVL2_5('/path/to/model')
     
     # QwenVL3 series
