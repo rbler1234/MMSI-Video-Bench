@@ -265,7 +265,7 @@ class InternVL2_5_video():
             num_patches_list.append(image_pixel_value.size(0))
         pixel_values = torch.cat(pixel_values_list,dim=0).to(torch.bfloat16).cuda()
         
-        input_text = sample['system_prompt']+'\n'+sample['prompt']
+        input_text = sample['input_prompt']
         
         for frames in sample['frames_list']:
             video_prefix = ''.join([f'Frame{i+1}: <image>\n' for i in range(len(frames))])
@@ -337,7 +337,7 @@ class InternVL3():
             num_patches_list.append(image_pixel_value.size(0))
         pixel_values = torch.cat(pixel_values_list,dim=0).to(torch.bfloat16).cuda()
         
-        input_text = sample['system_prompt']+'\n'+sample['prompt']
+        input_text = sample['input_prompt']
         
         for frames in sample['frames_list']:
             video_prefix = ''.join([f'Frame{i+1}: <image>\n' for i in range(len(frames))])
