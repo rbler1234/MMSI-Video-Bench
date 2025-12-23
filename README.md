@@ -17,7 +17,6 @@
     <a href="https://kuaikuaixym.github.io/" target="_blank">Yiman Xie<sup>1,4</sup></a>,
     <a href="https://openreview.net/profile?id=%7EYilin_Long2" target="_blank">Yilin Long<sup>1,8</sup></a>,
     <a href="https://gordonhu608.github.io/" target="_blank">Wenbo Hu<sup>1,9</sup></a>,
-    <br>
     <a href="http://dahua.site/" target="_blank">Dahua Lin<sup>1,3</sup></a>,
     <a href="https://tai-wang.github.io/" target="_blank">Tai Wang<sup>1✉</sup></a>,
     <a href="https://oceanpang.github.io/" target="_blank">Jiangmiao Pang<sup>1✉</sup></a>
@@ -25,7 +24,6 @@
 
 <p align="center">
  <span>1. Shanghai AI Laboratory &nbsp;&nbsp; 2. Shanghai Jiaotong University &nbsp;&nbsp; 3. The Chinese University of Hong Kong &nbsp;&nbsp; 4. Zhejiang University &nbsp;&nbsp; 5. Beihang University</span>
-        <br>
         <span>6. Xi'an Jiaotong University &nbsp;&nbsp; 7. University of Hong Kong &nbsp;&nbsp; 8. Fudan University &nbsp;&nbsp; 9. University of California, Los Angeles</span>
   
 </p>
